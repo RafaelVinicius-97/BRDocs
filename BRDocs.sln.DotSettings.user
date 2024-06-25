@@ -1,0 +1,28 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=761760ac_002D3a5e_002D45bd_002D9ab6_002Dda663adc58a6/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="PisValido" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::3D9D4468-F9EC-4639-B571-3B23F8DB5E53::net8.0::BRDocs.Testes.PisTestes.PisValido&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::3D9D4468-F9EC-4639-B571-3B23F8DB5E53::net8.0::BRDocs.Testes.CpfTestes&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::3D9D4468-F9EC-4639-B571-3B23F8DB5E53::net8.0::BRDocs.Testes.PisTestes&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=9b26dedf_002D1e54_002D4682_002D869b_002Dd0aacab22893/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="CpfValido" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::5A383BC4-255D-4802-90F9-B25E09A2CDAC::net8.0::BRDocs.Testes.CpfTestes&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::5A383BC4-255D-4802-90F9-B25E09A2CDAC::net8.0::BRDocs.Testes.PisTestes&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::5A383BC4-255D-4802-90F9-B25E09A2CDAC::net8.0::BRDocs.Testes.CnpjTestes&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=calculado/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=calcular/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=caracteres/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=digitos/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=documento/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=especiais/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=estao/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=multiplicadores/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=resto/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=resultado/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=tamanho/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=validos/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=verificadores/@EntryIndexedValue">True</s:Boolean></wpf:ResourceDictionary>

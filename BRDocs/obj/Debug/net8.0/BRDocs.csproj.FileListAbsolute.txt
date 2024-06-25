@@ -1,0 +1,11 @@
+/home/rafael/RiderProjects/BRDocs/BRDocs/obj/Debug/net8.0/BRDocs.GeneratedMSBuildEditorConfig.editorconfig
+/home/rafael/RiderProjects/BRDocs/BRDocs/obj/Debug/net8.0/BRDocs.AssemblyInfoInputs.cache
+/home/rafael/RiderProjects/BRDocs/BRDocs/obj/Debug/net8.0/BRDocs.AssemblyInfo.cs
+/home/rafael/RiderProjects/BRDocs/BRDocs/obj/Debug/net8.0/BRDocs.csproj.CoreCompileInputs.cache
+/home/rafael/RiderProjects/BRDocs/BRDocs/bin/Debug/net8.0/BRDocs.deps.json
+/home/rafael/RiderProjects/BRDocs/BRDocs/bin/Debug/net8.0/BRDocs.dll
+/home/rafael/RiderProjects/BRDocs/BRDocs/bin/Debug/net8.0/BRDocs.pdb
+/home/rafael/RiderProjects/BRDocs/BRDocs/obj/Debug/net8.0/BRDocs.dll
+/home/rafael/RiderProjects/BRDocs/BRDocs/obj/Debug/net8.0/refint/BRDocs.dll
+/home/rafael/RiderProjects/BRDocs/BRDocs/obj/Debug/net8.0/BRDocs.pdb
+/home/rafael/RiderProjects/BRDocs/BRDocs/obj/Debug/net8.0/ref/BRDocs.dll
