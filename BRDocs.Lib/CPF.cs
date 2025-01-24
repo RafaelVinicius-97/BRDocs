@@ -2,7 +2,7 @@
 
 namespace BRDocs.Lib;
 
-public static class Cpf
+public static class CPF
 {
     private static readonly int _tamanhoDocumento = 11;
     private static readonly int[] _multiplicadoresSemDigitoVerificador = [10, 9, 8, 7, 6, 5, 4, 3, 2];
