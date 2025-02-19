@@ -28,7 +28,7 @@ public class CNPJTeste
     [Fact]
     public void CnpjInvalido_TamanhoMaximo()
     {
-        var cnpjInvalido = "18.341.634/0001-7300";
+        var cnpjInvalido = "18.341.634/0001-000";
         var resultado = CNPJ.Validar(cnpjInvalido);
         Assert.False(resultado);
     }
@@ -36,7 +36,7 @@ public class CNPJTeste
     [Fact]
     public void CnpjInvalido_TamanhoMinimo()
     {
-        var cnpjInvalido = "18.341.634/0001-73";
+        var cnpjInvalido = "18.341.634/0001-0";
         var resultado = CNPJ.Validar(cnpjInvalido);
         Assert.False(resultado);
     }
