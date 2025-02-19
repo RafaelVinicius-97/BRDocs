@@ -1,15 +1,28 @@
-﻿using BRDocs.Lib;
+﻿using Bogus;
+using Bogus.Extensions.Brazil;
+using BRDocs.Lib;
 
 namespace BRDocs.Testes;
 
-public class CPFTestes
+public class CPFTeste
 {
-    [Fact]
-    public void CpfValido()
+    private static readonly Faker _faker = new("pt_BR");
+
+    public static IEnumerable<object[]> Documentos() =>
+        [
+            [_faker.Person.Cpf()],
+            [_faker.Person.Cpf()],
+            [_faker.Person.Cpf()],
+            [_faker.Person.Cpf()],
+            [_faker.Person.Cpf()]
+        ];
+
+    [Theory]
+    [MemberData(nameof(Documentos))]
+    public void CpfValido(string cpf)
     {
-        string cpfValido = "847.678.820-79";
-        bool resultado = CPF.Validar(cpfValido);
-        Assert.True(resultado);
+        bool resultado = CPF.Validar(cpf);
+        Assert.True(resultado, string.Format($"documento: {cpf}"));
     }
 
     [Fact]
@@ -55,7 +68,7 @@ public class CPFTestes
     [Fact]
     public void CpfInvalido_NaoHaNumeros_E_TamanhoInvalido()
     {
-        string cpfInvalido = "_+@#$%¨&*()ASD";
+        string cpfInvalido = "_+@sdfHQWvcx#$%d¨&*()A[D";
         bool resultado = CPF.Validar(cpfInvalido);
         Assert.False(resultado);
     }
